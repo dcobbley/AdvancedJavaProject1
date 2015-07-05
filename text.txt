@@ -1,0 +1,14 @@
+mvn archetype:generate \
+-DarchetypeCatalog=http://web.cecs.pdx.edu/~whitlock/repository/maven2 \
+-DarchetypeGroupId=edu.pdx.cs410J \
+-DarchetypeArtifactId=phonebill-archetype
+Define value for groupId: : edu.pdx.cs410J.dcobbley
+Define value for artifactId: : phonebill
+Define value for version:  1.0-SNAPSHOT: :
+Define value for package:  edu.pdx.cs410J.dcobbley: :
+Confirm properties configuration:
+groupId: edu.pdx.cs410J.dcobbley
+artifactId: phonebill
+version: 1.0-SNAPSHOT
+package: edu.pdx.cs410J.dcobbley
+Y: : Y
