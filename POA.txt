@@ -1,0 +1,33 @@
+David Cobbley
+Advanced Java 410
+Portland State
+7-7-15
+POA project 1
+
+My plan of Attack:
+First I must understand the assignment document fully before beginning to think about how I will go about this project. 
+|-----------------|    |-----------------|	
+|AbstractPhoneBill|    |AbstractPhoneCall|
+|-----------------|    |-----------------|
+	 |	       		|
+	 |			|
+      Extends		     Extends
+	 |			|
+	 |			|
+    |---------|		   |---------|
+    |PhoneBill|		   |PhoneCall|
+    |---------|		   |---------|
+         |			|
+	 |			|
+       Has A:		      Has A:
+    Customer Name	   Caller number
+ List of phone calls	   Callee Number	
+			    Start Time
+			     End time
+
+Each of these classes must implement all functions defined in the abstract base class. My main function will parse the command line arguments and call the appropriate functionality. Every time I run this program right now it will always require 7 arguments for a complete phone call and have two optional arguments. (7 because time and date are seperated by a delimeter)
+
+Using the system libraries in Java, I will easily be able to parse the arguments, especially because the parsing has already been done for me. To implement all of the appropriate functions from the parent classes, IntelliJ makes that incredibly easy by filling in dummy functions that all return null. From there each function is either a setter or a getter and I will fill in the appropriate functionality.
+
+This will be my first experience trying test driven developement, so hopefully I don't give up. I must also write a thorough README in order for the -README argument to work as well.
+				

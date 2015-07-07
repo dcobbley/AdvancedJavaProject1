@@ -8,8 +8,8 @@
     <language>en-us</language>
     <copyright>&#169;2000 - 2015 Portland State University</copyright>
     <item>
-      <title>File: 1,
-             Errors: 7,
+      <title>File: 3,
+             Errors: 17,
              Warnings: 0,
              Infos: 0
       </title>
@@ -29,6 +29,34 @@
           <tbody>
                           <tr>
                 <td>
+                  <a href="http://www.cs.pdx.edu/~whitlock/checkstyle.html#edu.pdx.cs410J.dcobbley.phonecall.java">edu/pdx/cs410J/dcobbley/phonecall.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.cs.pdx.edu/~whitlock/checkstyle.html#edu.pdx.cs410J.dcobbley.phonebill.java">edu/pdx/cs410J/dcobbley/phonebill.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  5
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://www.cs.pdx.edu/~whitlock/checkstyle.html#edu.pdx.cs410J.dcobbley.Project1.java">edu/pdx/cs410J/dcobbley/Project1.java</a>
                 </td>
                 <td>
@@ -38,7 +66,7 @@
                   0
                 </td>
                 <td>
-                  7
+                  6
                 </td>
               </tr>
                       </tbody>

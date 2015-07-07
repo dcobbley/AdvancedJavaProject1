@@ -8,11 +8,11 @@
 
         <Package name="edu.pdx.cs410J.dcobbley">
             <Stats>
-                <TotalClasses>1</TotalClasses>
-                <ConcreteClasses>1</ConcreteClasses>
+                <TotalClasses>3</TotalClasses>
+                <ConcreteClasses>3</ConcreteClasses>
                 <AbstractClasses>0</AbstractClasses>
                 <Ca>0</Ca>
-                <Ce>3</Ce>
+                <Ce>4</Ce>
                 <A>0</A>
                 <I>1</I>
                 <D>0</D>
@@ -26,12 +26,19 @@
                 <Class sourceFile="Project1.java">
                     edu.pdx.cs410J.dcobbley.Project1
                 </Class>
+                <Class sourceFile="phonebill.java">
+                    edu.pdx.cs410J.dcobbley.phonebill
+                </Class>
+                <Class sourceFile="phonecall.java">
+                    edu.pdx.cs410J.dcobbley.phonecall
+                </Class>
             </ConcreteClasses>
 
             <DependsUpon>
                 <Package>edu.pdx.cs410J</Package>
                 <Package>java.io</Package>
                 <Package>java.lang</Package>
+                <Package>java.util</Package>
             </DependsUpon>
 
             <UsedBy>
@@ -43,6 +50,10 @@
         </Package>
 
         <Package name="java.lang">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.util">
             <error>No stats available: package referenced, but not analyzed.</error>
         </Package>
     </Packages>
